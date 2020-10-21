@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+#cuerpo
+{
+    background-color: #f7f5ef;
+    font-family: sans-serif;
+    font-size: 13pt;
+}
+header
+{
+    overflow: hidden;
+    background-color: black;
+    border-bottom: 3px solid rgb(59, 172, 25);
+}
+img
+{
+    margin: 0 auto;
+    width:100%;
+}
+h4, p
+{
+    color:gray;
+    padding: 0;
+}
+#head-left
+{
+    float: left;
+    padding:0.5%;
+    margin-left: 2.5%;
+    width:40%;
+    height:auto;
+}
+#head-left img
+{
+    width:15%;
+    height: 7.5em;
+    margin: 0 auto;
+}
+#head-right
+{
+    float: right;
+    margin:0.5%;
+    width:53%;
+    text-align: right;
+}
+#Column2
+{
+    margin-top: 3%;
+}
+#ContactoWha
+{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    font-size: 16pt;
+}
+#ContactoWha:hover
+{
+    text-decoration: none;
+    color:rebeccapurple;
+    font-size: 17pt;
+}
+.container
+{
+    margin-top: 2%;
+}
+.row
+{
+    margin-top: 2%;
+}
+.list, #secondlist
+{
+    list-style: none;
+}
+.list > li
+{
+    float: left;
+    background-color: rgb(102, 101, 101); 
+}
+.list li a
+{
+    display: block;
+    padding:10px 20px;
+    color: white;
+    font-weight: bold;
+    transform: border-bottom 0.5s, background-color 0.5s;
+}
+.list li a:hover
+{
+    text-decoration: none;
+    background-color: #434343;
+}
+.list li ul
+{
+    display: none;
+    position: absolute;
+    float: left;
+    padding: 0px;
+    min-width: 140px; 
+}
+.list li:hover > ul
+{
+    display: block;
+    text-align: left;
+    background-color: gray;
+}
+.imgContacto, #img2
+{
+    width:7%;
+}
+.text-center
+{
+    margin-top: 3%;
+}
+footer
+{
+    margin-top: 2%;
+    background-color: black;
+}
