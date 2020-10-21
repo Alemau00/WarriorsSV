@@ -19,10 +19,26 @@ img
 h2
 {
     padding: 1%;
-    background-color: gray;
-    border-radius: 2%;
+    background-color: rgb(235, 235, 235);
     text-align: center;
-    color:gold;
+    color:goldenrod;
+}
+table, table td, table th
+{
+    margin:0 auto;
+    border: 1px solid black;
+    color: white;
+}
+table th
+{
+    padding: 0.5%;
+    background-color: rgb(43, 161, 161);
+}
+table td
+{
+    padding: 0.5%;
+    background-color: rgb(235, 235, 235);
+    color:black;
 }
 #head-left
 {
@@ -81,31 +97,18 @@ h2
     text-align: left;
     background-color: gray;
 }
-.contenedor
+.container
 {
+    margin-top: 1%;
     overflow: hidden;
+}
+.row
+{
+    margin-top: 2%;
 }
 .principal0
 {
     margin-top: 2%;
-    margin-left: 2%;
-    margin-right: 2%;
-}
-.principal
-{
-    margin-top: 2%;
-    margin-left: 2%;
-    margin-right: 2%;
-    width: 58%;
-    float: left;
-}
-.secundario
-{
-    margin-top: 2%;
-    margin-left: 1%;
-    margin-right: 2%;
-    width: 34%;
-    float: right;
 }
 .carousel-inner img 
 {
@@ -122,8 +125,37 @@ h2
     margin:0 auto;
     width: 100%;
 }
+.footer1
+{
+    float: left;
+    padding:0.5%;
+    margin-left: 2.5%;
+    width:61.5%;
+}
+.footer1 img
+{
+    width:6%;
+    height: 3.5em;
+    padding: 0.5%;
+}
+.footer2
+{
+    float: right;
+    padding:0.5%;
+    margin-right: 2.5%;
+    width:31.5%;
+    text-align: right;
+}
+.footer2 img
+{
+    width:15%;
+    height: 7.5em;
+    margin: 0 auto;
+}
 footer
 {
+    overflow: hidden;
     margin-top: 2%;
     background-color: black;
+    color: white;
 }
