@@ -16,7 +16,7 @@ img
     margin: 0 auto;
     width:100%;
 }
-h4, p
+h4
 {
     color:gray;
     padding: 0;
@@ -56,7 +56,7 @@ h4, p
 #ContactoWha:hover
 {
     text-decoration: none;
-    color:rebeccapurple;
+    color:rgb(117, 97, 189);
     font-size: 17pt;
 }
 .container

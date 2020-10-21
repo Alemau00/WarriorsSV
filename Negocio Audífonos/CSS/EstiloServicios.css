@@ -16,6 +16,20 @@ img
     margin: 0 auto;
     width:100%;
 }
+td
+{
+    width: 400px;
+}
+h4
+{
+    color:gray;
+    padding: 0;
+}
+p
+{
+    color:rgb(117, 97, 189);
+    font-weight: bold;
+}
 #head-left
 {
     float: left;
@@ -87,7 +101,7 @@ img
 }
 .text-center img
 {
-    width: 50%;
+    width: 90%;
 }
 footer
 {
@@ -99,7 +113,7 @@ table
     margin: 0 auto;
     text-align: justify;
 }
-td
+.imgT
 {
-    width: 1%;
+    width:150px;
 }
