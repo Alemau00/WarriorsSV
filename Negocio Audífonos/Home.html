@@ -9,25 +9,31 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
         <link rel="stylesheet" type="text/css" href="CSS/EstiloHome.css">
         <link rel="stylesheet" href="CSS/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-latest.js"></script>
+        <script src="js/Desplegable.js"></script>
     </head>
     <body id="cuerpo">
         <header>
             <div id="head-left">
                 <a href="Inicio.html"><img src="#" alt="logo aqui"></a>
             </div>
+            <div class="desplegable">
+                <a href="#">Menu</a>
+            </div>
             <div id="head-right">
                 <nav>
                     <ul class="list">
                         <li><a href="Inicio.html" class="nav-a">Inicio</a></li>
-                        <li>
+                        <li class="submenu">
                             <a href="#" class="nav-a">Catálogo</a>
-                            <ul id="secondlist">
+                            <ul class="secondlist">
                                 <li><a href="Home.html">Audífonos</a></li>
                                 <li><a href="Memorias.html">Memorias USB</a></li>
+                                <li><a href="#">Relojes</a></li>
                             </ul> 
                         </li>
                         <li><a href="Servicios.html">Servicios</a></li>
-                        <li><a href="Contacto.html  " class="nav-a">Contáctanos</a></li>
+                        <li><a href="Contacto.html" class="nav-a">Contáctanos</a></li>
                         <li><a href="Nosotros.html" class="nav-a">Sobre nosotros</a></li>
                     </ul>
                 </nav>
@@ -35,7 +41,7 @@
         </header>
         <!--Sección audífonos-->
             <div class="container justify-content-center">
-                <h4>Audífonos</h4>
+                <h2>AUDIFONOS</h2>
                 <div class="row">
                     <div class="col col-4" id="Column">
                         <div class="in-line">

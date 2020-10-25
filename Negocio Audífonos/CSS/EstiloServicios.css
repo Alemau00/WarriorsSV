@@ -76,6 +76,10 @@ p
 {
     margin-top: 2%;
 }
+.desplegable
+{
+    display: none;
+}
 .list, #secondlist
 {
     list-style: none;
@@ -116,6 +120,12 @@ p
     text-align: left;
     background-color: #004454;  /*AQUI HICE CAMBIOS*/
     border-radius: 25px;
+    z-index: 1000;
+    line-height: normal;
+}
+header nav ul li .secondlist li             /*NUEVO CAMBIO*/
+{ 
+    overflow: hidden;
 }
 .text-center
 {

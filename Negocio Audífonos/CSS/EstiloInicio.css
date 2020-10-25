@@ -91,6 +91,10 @@ table td
 {
     padding-top: 20px;
 }
+.desplegable
+{
+    display: none;
+}
 .list, #secondlist
 {
     list-style: none;
@@ -131,6 +135,12 @@ table td
     text-align: left;
     background-color: #004454;  /*AQUI HICE CAMBIOS*/
     border-radius: 25px;
+    z-index: 1000;
+    line-height: normal;
+}
+header nav ul li .secondlist li             /*NUEVO CAMBIO*/
+{ 
+    overflow: hidden;
 }
 .container
 {

@@ -24,9 +24,14 @@ h5
     color:rgb(53, 53, 224);
     font-weight: bold;
 }
-h4
+h2
 {
+    padding: 1%;
+    text-align: center;
     color:black;
+    background-color: black;
+    border-radius: 25px;
+    color: gold;
     font-weight: bold;
 }
 span
@@ -79,6 +84,10 @@ span
 {
     margin-top: 2%;
 }
+.desplegable
+{
+    display: none;
+}
 .list, #secondlist
 {
     list-style: none;
@@ -119,6 +128,12 @@ span
     text-align: left;
     background-color: #004454;  /*AQUI HICE CAMBIOS*/
     border-radius: 25px;
+    z-index: 1000;
+    line-height: normal;
+}
+header nav ul li .secondlist li             /*NUEVO CAMBIO*/
+{ 
+    overflow: hidden;
 }
 .in-line
 {

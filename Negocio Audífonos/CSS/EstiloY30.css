@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
 #cuerpo
 {
-    background-color: #f7f5ef;
+    background-color: #dddbd1; /*AQUI HICE CAMBIOS*/
     font-family: sans-serif;
     font-size: 13pt;
 }
 header
 {
-    overflow: hidden;
-    background-color: black;
-    border-bottom: 3px solid rgb(59, 172, 25);
+    overflow: hidden;   /*AQUI HICE CAMBIOS*/
+    width: 100%;
+    background-color: #004454;
+    color: white;
+    border-bottom: 3px solid black;
+    justify-content: space-between;
 }
 img
 {
@@ -19,28 +22,37 @@ img
 }
 h4
 {
-    color:rgb(77, 77, 77);
+    color:black; /*AQUI HICE CAMBIOS*/
 }
 #head-left
 {
     float: left;
+    line-height: 100px;
+    padding: 1%;
+    /*
+    float: left;
     padding:0.5%;
     margin-left: 2.5%;
     width:40%;
-    height:auto;
+    height:auto;*/
 }
 #head-left img
 {
+    /*
     width:15%;
     height: 7.5em;
-    margin: 0 auto;
+    margin: 0 auto;*/
 }
 #head-right
 {
     float: right;
+    line-height: 100px;
+    padding: 1%;
+    /*
+    float: right;
     margin:0.5%;
     width:53%;
-    text-align: right;
+    text-align: right;*/
 }
 #Column
 {
@@ -59,8 +71,8 @@ h4
 {
     margin-top: 4%;
     padding: 1%;
-    color:rgb(77, 77, 77);
-    background-color: rgb(235, 235, 235);
+    color:black;
+    background-color: #f56f3a; /*AQUI HICE CAMBIOS*/
 }
 .row
 {
@@ -70,27 +82,35 @@ h4
 {
     margin-top: 2%;
 }
+.desplegable
+{
+    display: none;
+}
 .list, #secondlist
 {
     list-style: none;
 }
 .list > li
 {
-    float: left;
-    background-color: rgb(102, 101, 101); 
+    float: left;    /*AQUI HICE CAMBIOS*/ 
 }
 .list li a
 {
-    display: block;
+    display:block;
     padding:10px 20px;
     color: white;
     font-weight: bold;
-    transform: border-bottom 0.5s, background-color 0.5s;
+    font-size: 15pt;
+    line-height: normal;
+    -webkit-transition: all 500ms ease;    /*AQUI HICE CAMBIOS*/
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
 }
 .list li a:hover
 {
     text-decoration: none;
-    background-color: #434343;
+    background-color: #f56f3a;  /*AQUI HICE CAMBIOS*/
+    border-radius: 50px;
 }
 .list li ul
 {
@@ -104,7 +124,14 @@ h4
 {
     display: block;
     text-align: left;
-    background-color: gray;
+    background-color: #004454;  /*AQUI HICE CAMBIOS*/
+    border-radius: 25px;
+    z-index: 1000;
+    line-height: normal;
+}
+header nav ul li .secondlist li             /*NUEVO CAMBIO*/
+{ 
+    overflow: hidden;
 }
 .in-line
 {
@@ -149,6 +176,8 @@ footer
 {
     overflow: hidden;
     margin-top: 2%;
-    background-color: black;
+    justify-content: space-between; /*AQUI HICE CAMBIOS*/
+    background-color: #004454;
     color: white;
+    font-weight: bold;
 }
