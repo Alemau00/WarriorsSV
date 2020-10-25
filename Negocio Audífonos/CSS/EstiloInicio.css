@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
 #cuerpo
 {
-    background-color: #f7f5ef;
+    background-color: #dddbd1; /*AQUI HICE CAMBIOS*/
     font-family: sans-serif;
     font-size: 13pt;
 }
@@ -9,8 +9,9 @@ header
 {
     overflow: hidden;   /*AQUI HICE CAMBIOS*/
     width: 100%;
-    background-color: black;
-    border-bottom: 3px solid rgb(59, 172, 25);
+    background-color: #004454;
+    color: white;
+    border-bottom: 3px solid black;
     justify-content: space-between;
 }
 img
@@ -20,10 +21,16 @@ img
 }
 h2
 {
-    padding: 1%;
-    background-color: rgb(235, 235, 235);
+    padding: 1%;/*AQUI VAN CAMBIOS*/
+    background-color: black;
+    border-radius: 25px;
     text-align: center;
-    color:goldenrod;
+    color:gold;
+}
+h5
+{
+    color: red;
+    font-weight: bold;
 }
 table, table td, table th
 {
@@ -41,6 +48,11 @@ table td
     padding: 0.5%;
     background-color: rgb(235, 235, 235);
     color:black;
+}
+#to-main
+{
+    border: 3px dotted black;
+    vertical-align: middle;
 }
 #head-left
 {
@@ -75,20 +87,25 @@ table td
     line-height: 120px;
     text-align: right;*/
 }
+.inf
+{
+    padding-top: 20px;
+}
 .list, #secondlist
 {
     list-style: none;
 }
 .list > li
 {
-    float: left;
+    float: left;    /*AQUI HICE CAMBIOS*/
 }
 .list li a
 {
-    display: block;
+    display:block;
     padding:10px 20px;
     color: white;
     font-weight: bold;
+    font-size: 15pt;
     line-height: normal;
     -webkit-transition: all 500ms ease;    /*AQUI HICE CAMBIOS*/
     -o-transition: all 500ms ease;
@@ -112,6 +129,8 @@ table td
 {
     display: block;
     text-align: left;
+    background-color: #004454;  /*AQUI HICE CAMBIOS*/
+    border-radius: 25px;
 }
 .container
 {
@@ -176,6 +195,8 @@ footer
 {
     overflow: hidden;
     margin-top: 2%;
-    background-color: black;
+    justify-content: space-between; /*AQUI HICE CAMBIOS*/
+    background-color: #004454;
     color: white;
+    font-weight: bold;
 }
