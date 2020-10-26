@@ -91,14 +91,6 @@ p
     margin-top: 5%;
     margin-bottom: 15%;
 }
-.desplegable
-{
-    display: none; /*NUEVO*/
-}
-.desplegable a:hover
-{
-    text-decoration: none;
-}
 .list, .secondlist
 {
     list-style: none;
@@ -199,29 +191,16 @@ footer
 
 header
 {
-
     display: block;   /*AQUI HICE CAMBIOS*/
     width: 100%;
     background-color: #004454;
     color: white;
     border-bottom: 3px solid black;
 }
-.desplegable
-{
-    display: inline-block;
-    width: 100%;                    /*NUEVO*/
-    overflow: hidden;
-}
-.desplegable a
-{
-    margin-top: 0;
-    padding: 1%;
-    float: right;
-}
+
 #head-left
 {
-    display: block;
-    float: left;
+    float: none;
     padding: 1%;
     text-align: center;
     /*
@@ -240,60 +219,13 @@ header
 }
 #head-right
 {
-    position: absolute;
-    width: 80%;
-    height:100vh;         /*CAMBIOS NUEVOS*/
-    left: -100%;
-    overflow: scroll;
-    z-index: 1000;
-    background-color: #01404e;
+    float: none;
+
     /*
     float: right;
     margin:0.5%;
     width:53%;
     text-align: right;*/
-}
-.list > li
-{
-    float: none;    /*AQUI HICE CAMBIOS*/
-}
-.list li:hover > ul
-{
-    display: block;
-    text-align: left;
-    background-color: #002f3a;  /*AQUI HICE CAMBIOS*/
-    border-radius: 25px;
-    z-index: 1000;
-}
-.list li ul
-{
-    display: none;
-    position: absolute;
-    padding: 0px;
-    min-width: 140px; 
-}
-header nav ul li .secondlist             /*NUEVO CAMBIO*/
-{ 
-    width: 100%;
-    position: relative;
-}
-.list li a
-{
-    display:block;
-    padding:10px;
-    color: white;
-    font-weight: bold;
-    font-size: 15pt;
-    line-height: normal;
-    -webkit-transition: all 100ms ease;    /*AQUI HICE CAMBIOS*/
-    -o-transition: all 100ms ease;
-    transition: all 100ms ease;
-}
-.list li a:hover
-{
-    text-decoration: none;
-    background-color: #f56f3a;  /*AQUI HICE CAMBIOS*/
-    border-radius: 50px;
 }
 .list li a:active
 {
