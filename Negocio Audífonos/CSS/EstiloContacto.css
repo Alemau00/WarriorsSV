@@ -195,7 +195,7 @@ footer
 {
 #cuerpo
 {
-    font-size: 12pt;
+    font-size: 13pt;
 }
 span
 { 
@@ -257,6 +257,10 @@ header
     width:53%;
     text-align: right;*/
 }
+#ContactoWha
+{
+    font-size: 17pt;
+}
 .list li a:active
 {
     text-decoration: none;
@@ -306,7 +310,7 @@ footer
 {
     #cuerpo
 {
-    font-size: 12.5pt;
+    font-size: 13pt;
 }
 span
 { 
@@ -367,6 +371,10 @@ header
     margin:0.5%;
     width:53%;
     text-align: right;*/
+}
+#ContactoWha
+{
+    font-size: 18pt;
 }
 .list li a:active
 {

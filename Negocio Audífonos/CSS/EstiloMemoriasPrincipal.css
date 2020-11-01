@@ -63,7 +63,8 @@ img
 .list li a
 {
     display:block;
-    padding:10px 20px;
+    padding:8px 5px 8px 5px;
+    justify-content: space-around;
     color: white;
     font-weight: bold;
     font-size: 15pt;
@@ -94,6 +95,10 @@ img
     border-radius: 25px;
     z-index: 1000;
     line-height: normal;
+}
+.icono
+{
+    padding:3px;
 }
 header nav ul li .secondlist li             /*NUEVO CAMBIO*/
 { 

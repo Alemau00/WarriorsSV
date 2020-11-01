@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 #cuerpo
 {
     background-color: #dddbd1; /*AQUI HICE CAMBIOS*/
@@ -63,7 +71,8 @@ img
 .list li a
 {
     display:block;
-    padding:10px 20px;
+    padding:8px 5px 8px 5px;
+    justify-content: space-around;
     color: white;
     font-weight: bold;
     font-size: 15pt;
@@ -85,6 +94,10 @@ img
     float: left;
     padding: 0px;
     min-width: 140px; 
+}
+.icono
+{
+    padding:3px;
 }
 .list li:hover > ul
 {
@@ -151,4 +164,218 @@ footer
     background-color: #004454;
     color: white;
     font-weight: bold;
+}
+@media screen and (max-width:480px)
+{
+span
+{ 
+    display: none;
+}
+.list
+{
+    display: inline-block;
+}
+.list li a
+{
+    padding:5px 15px 5px 15px;
+    justify-content: space-around;
+}
+header
+{
+    display: block;   /*AQUI HICE CAMBIOS*/
+    width: 100%;
+    background-color: #004454;
+    color: white;
+    border-bottom: 3px solid black;
+    justify-content: space-around;
+    overflow: hidden;
+}
+#head-left
+{
+    float: none;
+    margin-top: 5px;
+    margin-top: 1%;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    line-height: normal;
+    /*
+    float: left;
+    padding:0.5%;
+    margin-left: 2.5%;
+    width:40%;
+    height:auto;*/
+}
+#head-left img
+{
+    /*
+    width:15%;
+    height: 7.5em;
+    margin: 0 auto;*/
+}
+#head-right
+{
+    float: none;
+    margin-top: 5px;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    line-height: normal;
+    /*
+    float: right;
+    margin:0.5%;
+    width:53%;
+    text-align: right;*/
+}
+.list li a:active
+{
+    text-decoration: none;
+    background-color: #f56f3a;  /*AQUI HICE CAMBIOS*/
+    border-radius: 50px;
+}
+footer
+{
+    overflow: hidden;
+    margin-bottom: 0;
+    justify-content: space-between; /*AQUI HICE CAMBIOS*/
+    background-color: #004454;
+    color: white;
+    font-weight: bold;
+}
+.footer1
+{
+    width: 100%;
+    float: none;
+    padding:0.5%;
+    text-align: center;
+}
+.footer1 img
+{
+    width:10%;
+    height: 3em;
+    padding: 0.5%;
+    margin: auto;
+}
+.footer2
+{
+    width: 100%;
+    float: none;
+    padding:0.5%;
+    text-align: center;
+}
+.footer2 img
+{
+    margin: auto;
+    /*
+    width:15%;
+    height: 7.5em;
+    margin: 0 auto;*/
+}
+}
+@media screen and (min-width:481px) and (max-width:768px)
+{
+span
+{ 
+    display: none;
+}
+.list
+{
+    display: inline-block;
+}
+.list li a
+{
+    padding:5px 15px 5px 15px;
+    justify-content: space-around;
+}
+header
+{
+    display: block;   /*AQUI HICE CAMBIOS*/
+    width: 100%;
+    background-color: #004454;
+    color: white;
+    border-bottom: 3px solid black;
+    justify-content: space-around;
+    overflow: hidden;
+}
+#head-left
+{
+    float: none;
+    margin-top: 5px;
+    margin-top: 1%;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    line-height: normal;
+    /*
+    float: left;
+    padding:0.5%;
+    margin-left: 2.5%;
+    width:40%;
+    height:auto;*/
+}
+#head-left img
+{
+    /*
+    width:15%;
+    height: 7.5em;
+    margin: 0 auto;*/
+}
+#head-right
+{
+    float: none;
+    margin-top: 8px;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    line-height: normal;
+    /*
+    float: right;
+    margin:0.5%;
+    width:53%;
+    text-align: right;*/
+}
+.list li a:active
+{
+    text-decoration: none;
+    background-color: #f56f3a;  /*AQUI HICE CAMBIOS*/
+    border-radius: 50px;
+}
+footer
+{
+    overflow: hidden;
+    margin-bottom: 0;
+    justify-content: space-between; /*AQUI HICE CAMBIOS*/
+    background-color: #004454;
+    color: white;
+    font-weight: bold;
+}
+.footer1
+{
+    width: 100%;
+    float: none;
+    padding:0.5%;
+    text-align: center;
+}
+.footer1 img
+{
+    width:8%;
+    height: 3.2em;
+    padding: 0.5%;
+    margin: auto;
+}
+.footer2
+{
+    width: 100%;
+    float: none;
+    padding:0.5%;
+    text-align: center;
+}
+.footer2 img
+{
+    margin: auto;
+    /*
+    width:15%;
+    height: 7.5em;
+    margin: 0 auto;*/
+}
 }
