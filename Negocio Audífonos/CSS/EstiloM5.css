@@ -78,7 +78,7 @@ h4
 {
     margin-top: 4%;
     padding: 1%;
-    color:black;
+    color: black;
     background-color: #f56f3a; /*AQUI HICE CAMBIOS*/
 }
 .row
@@ -99,7 +99,7 @@ h4
 }
 .list > li
 {
-    float: left;    /*AQUI HICE CAMBIOS*/ 
+    float: left;    /*AQUI HICE CAMBIOS*/
 }
 .list li a
 {
@@ -149,7 +149,7 @@ header nav ul li .secondlist li             /*NUEVO CAMBIO*/
 {
     margin-top: 1%;
     margin: auto;
-    width:80%;
+    width:90%;
     text-align: center;
 }
 .ListEspec

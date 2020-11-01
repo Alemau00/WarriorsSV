@@ -78,7 +78,7 @@ h4
 {
     margin-top: 4%;
     padding: 1%;
-    color:black;
+    color: black;
     background-color: #f56f3a; /*AQUI HICE CAMBIOS*/
 }
 .row
@@ -149,7 +149,7 @@ header nav ul li .secondlist li             /*NUEVO CAMBIO*/
 {
     margin-top: 1%;
     margin: auto;
-    width:80%;
+    width:90%;
     text-align: center;
 }
 .ListEspec
@@ -187,7 +187,7 @@ header nav ul li .secondlist li             /*NUEVO CAMBIO*/
 footer
 {
     overflow: hidden;
-    margin-bottom: 0;
+    margin-top: 2%;
     justify-content: space-between; /*AQUI HICE CAMBIOS*/
     background-color: #004454;
     color: white;
